@@ -12,12 +12,12 @@ public class GenerateArrayList {
     }
 
     public ArrayList GenerateIntArrayList(int len, int inf, int sup) {
-        this.liste = new ArrayList<Integer>(len);
+        this.liste = new ArrayList<Integer>();
         this.borneInf = inf;
         this.borneSup = sup;
         Random rand = new Random();
         for (int i = 0; i < len; i++) {
-            liste.set(i, rand.nextInt(borneSup - borneInf) - borneInf);
+            liste.add(rand.nextInt(borneSup - borneInf) + borneInf);
         }
         return liste;
     }
