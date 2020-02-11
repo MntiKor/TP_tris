@@ -8,9 +8,11 @@ public class Main {
         ArrayList<Integer> list = gene.GenerateIntArrayList(10, 5, 20);
         System.out.println(list.toString());
 
-        Bubbles bubbles = new Bubbles();
-        bubbles.applyTo(list);
+        Fusion fusion = new Fusion();
+        fusion.applyTo(list);
         System.out.println(list.toString());
+
+
 
     }
 }
