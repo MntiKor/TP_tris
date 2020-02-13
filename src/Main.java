@@ -5,12 +5,28 @@ public class Main {
     public static void main(String[] args) {
         GenerateArrayList gene = new GenerateArrayList();
 
-        ArrayList<Integer> list = gene.GenerateIntArrayList(10, 5, 20);
-        System.out.println(list.toString());
+        ArrayList<Double> list = gene.generateDoubleArrayList(10);
+        System.out.println("liste de base : " + list.toString());
+        ArrayList<Double> newList = list;
 
+        Bubbles bubbles = new Bubbles();
+        bubbles.applyTo(newList);
+        System.out.println("tri par bulles : " + newList.toString());
+
+        newList = list;
+        Quick quick = new Quick();
+        quick.applyTo(newList, 0, list.size() - 1);
+        System.out.println("tri rapide : " + newList.toString());
+
+        newList = list;
         Fusion fusion = new Fusion();
-        fusion.applyTo(list);
-        System.out.println(list.toString());
+        fusion.applyTo(newList, 0, list.size() - 1);
+        System.out.println("tri par fusion : " + newList.toString());
+
+        newList = list;
+        Heap heap = new Heap();
+        heap.applyTo(newList);
+        System.out.println("tri par tas : " + newList.toString());
 
 
 

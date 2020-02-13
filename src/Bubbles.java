@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Bubbles { //tri par bulles
+public class Bubbles<T extends Comparable<T>> { //tri par bulles
 
     public Bubbles() {}
 
-    public void applyTo(ArrayList<? extends Comparable> list) {
+    public void applyTo(ArrayList<T> list) {
 
         for (int i = list.size() - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {

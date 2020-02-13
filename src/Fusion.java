@@ -1,41 +1,48 @@
 import java.util.ArrayList;
 
-public class Fusion { // tri par fusion
+public class Fusion<T extends Comparable<T>> { // tri par fusion
 
 	public Fusion() {}
 
-	public void applyTo(ArrayList<? extends Comparable> list) {
-		ArrayList list1 = new ArrayList();
-		ArrayList list2 = new ArrayList();
+	public void applyTo(ArrayList<T> list, int start, int end) {
+		int mid;
 
-		for (int i = 0; i < list.size(); i++) {
-			if (i < list.size()/2) list1.add(list.get(i));
-			else list2.add(list.get(i));
+		if (start < end) {
+			mid = (start + end) / 2;
+			applyTo(list, start, mid);
+			applyTo(list, mid + 1, end);
+			doFusion(list, start, mid, end);
 		}
-
-
-		list = doFusion(list1, list2);
-
 	}
 
-	public ArrayList doFusion(ArrayList<? extends Comparable> list1, ArrayList<? extends Comparable> list2) {
-		System.out.println(list1.toString());
-		System.out.println(list2.toString());
-		if (list1.size() == 0) return list2;
-		if (list2.size() == 0) return list1;
-		ArrayList ret = new ArrayList();
-		if (list1.get(0).compareTo(list2.get(0)) <= 0) {
-			ret.add(list1.get(0));
-			list1.remove(0);
-			ret.addAll(doFusion(list1, list2));
-		}
+	public void doFusion(ArrayList<T> list, int start, int mid, int end) {
+		ArrayList<T> old = (ArrayList<T>) list.clone();
 
-		else {
-			ret.add(list2.get(0));
-			list2.remove(0);
-			ret.addAll(doFusion(list1, list2));
+		int i1 = start;
+		int i2 = mid + 1;
+		int i = start;
+
+		while (i1 <= mid && i2 <= end) {
+			if (old.get(i1).compareTo(old.get(i2)) <= 0) {
+				list.set(i, old.get(i1));
+				i1++;
+			} else {
+				list.set(i, old.get(i2));
+				i2++;
+			}
+			i++;
 		}
-		System.out.println(ret.toString());
-		return ret;
+		if (i <= end) {
+			while (i1 <= mid) {
+				list.set(i, old.get(i1));
+				i1++;
+				i++;
+			}
+			while (i2 <= end) {
+				list.set(i, old.get(i2));
+				i2++;
+				i++;
+			}
+		}
 	}
 }
