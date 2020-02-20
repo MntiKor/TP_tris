@@ -40,7 +40,7 @@ public class GenerateArrayList {
         this.list = new ArrayList<String>();
         Random rand = new Random();
         for (int i = 0; i < len; i++) {
-            int strLen = rand.nextInt(maxStrLen);
+            int strLen = rand.nextInt(maxStrLen + 1);
             StringBuilder sb = new StringBuilder();
             for (int j = 0; j < strLen; j++) {
                 sb.append(alphabet.charAt(rand.nextInt(alphabet.length())));

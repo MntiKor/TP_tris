@@ -4,21 +4,11 @@
     <list default="true" id="f1a3e484-95d8-43dd-bb83-88b2e62b0125" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP_tris/Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP_tris/Bubbles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_tris/Bubbles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP_tris/Flag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP_tris/Fusion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_tris/Fusion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP_tris/GenerateArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_tris/GenerateArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP_tris/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_tris/Heap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP_tris/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_tris/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Base.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bubbles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bubbles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Flag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fusion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenerateArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenerateArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +16,28 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GenerateArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,8 +49,47 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/GenerateArrayList.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="28" />
+    <option name="width" value="960" />
+    <option name="height" value="1024" />
+  </component>
   <component name="ProjectId" id="1XidU6ZJOLV6PQb3FpbR7q3W5Fw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TP_tris_finished" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP_tris_finished" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TP_tris_finished" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP_tris_finished" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Course" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,6 +101,18 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -93,6 +156,39 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="28" width="1922" height="1025" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32998884" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="WindowStateProjectService">
     <state x="588" y="214" width="800" height="729" key="#Intentions" timestamp="1581545373630">
       <screen x="67" y="27" width="1853" height="1053" />
@@ -122,6 +218,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1581553144443" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenerateArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

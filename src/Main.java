@@ -5,9 +5,9 @@ public class Main {
     public static void main(String[] args) {
         GenerateArrayList gene = new GenerateArrayList();
 
-        ArrayList<Double> list = gene.generateDoubleArrayList(10);
+        ArrayList<?> list = gene.generateStrArrayList(40, 5);
         System.out.println("liste de base : " + list.toString());
-        ArrayList<Double> newList = list;
+        ArrayList<?> newList = list;
 
         Bubbles bubbles = new Bubbles();
         bubbles.applyTo(newList);
